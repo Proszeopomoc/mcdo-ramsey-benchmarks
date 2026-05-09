@@ -1,4 +1,5 @@
-﻿# MDO Ramsey Benchmarks
+﻿[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20094421.svg)](https://doi.org/10.5281/zenodo.20094421)
+# MDO Ramsey Benchmarks
 
 Public benchmark and validation artifacts for a closed-source MDO/MCDO Ramsey graph solver.
 
@@ -62,3 +63,10 @@ Included figures:
 - R(5,5), K42 known reference example and complement
 
 These figures are documentation artifacts. They do not disclose the private solver implementation.
+
+
+## DOI
+
+This public benchmark artifact release is archived on Zenodo:
+
+https://doi.org/10.5281/zenodo.20094421

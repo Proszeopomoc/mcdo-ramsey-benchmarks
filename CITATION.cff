@@ -6,5 +6,8 @@ authors:
   - family-names: "Machura"
     given-names: "Michal"
 repository-code: "https://github.com/Proszeopomoc/mcdo-ramsey-benchmarks"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20094421"
 abstract: "Public benchmark and validation artifacts for a closed-source MDO/MCDO Ramsey graph solver."
 license: "CC-BY-4.0"
