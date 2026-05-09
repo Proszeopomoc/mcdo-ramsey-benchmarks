@@ -1,0 +1,21 @@
+﻿# Private solver and scripts
+solver/
+private/
+internal/
+*.pyc
+__pycache__/
+
+# Do not publish raw private runs
+SOURCE_JSON/
+PRIVATE/
+*.exe
+*.pdb
+
+# Large raw graph catalogues are not included by default
+*.g6
+*.g6.gz
+*.tar.gz
+
+# Local temp
+*.tmp
+*.log

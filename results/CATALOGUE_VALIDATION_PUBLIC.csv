@@ -1,0 +1,10 @@
+catalogue,case,type,draw_policy,expected_count,observed_count,all_valid,duplicate_free,test_b_candidate_valid,test_b_isomorphic,edge_min,edge_max,edge_mean,elapsed_seconds,status
+R39_35,"Ramsey(3,9,35)",official catalogue,,1,1,True,True,True,True,140,140,140.0,,PASS_A_B
+R37_22,"Ramsey(3,7,22)",official catalogue,,191,191,True,True,True,True,60,66,63.49214659685864,,PASS_A_B
+R46_35SOME,"Ramsey(4,6,35)",official catalogue,,37,37,True,True,True,True,246,250,248.0810810810811,,PASS_A_B
+R45_24,"Ramsey(4,5,24)",large official catalogue,NO_DRAW_FOR_LARGE_CATALOG,352366,352366,True,True,True,True,116,132,122.84938387926191,153.6531138420105,PASS_A_B_NODRAW
+R38_27,"Ramsey(3,8,27)",large official catalogue,NO_DRAW_FOR_LARGE_CATALOG,477142,477142,True,True,True,True,85,94,90.81159067950422,630.0776364803314,PASS_A_B_NODRAW
+R37_21,"Ramsey(3,7,21)",large official catalogue,NO_DRAW_FOR_LARGE_CATALOG,1118436,1118436,True,True,True,True,51,63,58.171245381944075,487.7384924888611,PASS_A_B_NODRAW
+R36_17,"Ramsey(3,6,17)",drawable small catalogue,DRAW_ALL,7,7,True,True,True,True,40,42,41,32.69785952568054,PASS_A_B_DRAW
+R46_35SOME,"Ramsey(4,6,35)",drawable small catalogue,DRAW_ALL,37,37,True,True,True,True,246,250,248.0810810810811,205.15019416809082,PASS_A_B_DRAW
+R55_REFERENCE_SAMPLE,"Ramsey(5,5,42) known reference sample","reference sample, not complete catalogue",reference validation only,656,656,True,True,,,423,438,,,PASS_R55_REFERENCE_SAMPLE_VALIDATED

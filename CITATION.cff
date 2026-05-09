@@ -1,0 +1,10 @@
+﻿cff-version: 1.2.0
+title: "MDO Ramsey Benchmarks"
+message: "If you use these benchmark artifacts, please cite this repository."
+type: dataset
+authors:
+  - family-names: "Machura"
+    given-names: "Michal"
+repository-code: "https://github.com/Proszeopomoc/mcdo-ramsey-benchmarks"
+abstract: "Public benchmark and validation artifacts for a closed-source MDO/MCDO Ramsey graph solver."
+license: "CC-BY-4.0"

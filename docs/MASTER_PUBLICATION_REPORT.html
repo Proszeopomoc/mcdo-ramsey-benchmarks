@@ -1,0 +1,258 @@
+﻿<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>MDO_RAMSEY_MASTER_PUBLICATION_20260509_092849</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 32px; line-height: 1.45; }
+.box { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 18px 0; background: #fafafa; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+th, td { border: 1px solid #ddd; padding: 7px; font-size: 13px; vertical-align: top; }
+th { background: #eee; }
+code { background: #eee; padding: 2px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>MDO Ramsey Master Publication Package</h1>
+
+<div class="box">
+<h2>Publication policy</h2>
+<p>This package publishes results, validation records, timing, hardware information and SHA256 evidence.</p>
+<p>It does not publish the closed-source MCDO solver implementation, rule scoring, branch logic or internal method structure.</p>
+</div>
+
+<div class="box">
+<h2>Catalogue validation</h2>
+<table>
+<tr>
+<th>catalogue</th><th>case</th><th>type</th><th>count</th><th>expected</th><th>valid</th><th>duplicates ok</th><th>edge min</th><th>edge max</th><th>seconds</th><th>status</th>
+</tr>
+
+<tr>
+<td>R39_35</td>
+<td>Ramsey(3,9,35)</td>
+<td>official catalogue</td>
+<td>1</td>
+<td>1</td>
+<td>True</td>
+<td>True</td>
+<td>140</td>
+<td>140</td>
+<td>None</td>
+<td>PASS_A_B</td>
+</tr>
+
+<tr>
+<td>R37_22</td>
+<td>Ramsey(3,7,22)</td>
+<td>official catalogue</td>
+<td>191</td>
+<td>191</td>
+<td>True</td>
+<td>True</td>
+<td>60</td>
+<td>66</td>
+<td>None</td>
+<td>PASS_A_B</td>
+</tr>
+
+<tr>
+<td>R46_35SOME</td>
+<td>Ramsey(4,6,35)</td>
+<td>official catalogue</td>
+<td>37</td>
+<td>37</td>
+<td>True</td>
+<td>True</td>
+<td>246</td>
+<td>250</td>
+<td>None</td>
+<td>PASS_A_B</td>
+</tr>
+
+<tr>
+<td>R45_24</td>
+<td>Ramsey(4,5,24)</td>
+<td>large official catalogue</td>
+<td>352366</td>
+<td>352366</td>
+<td>True</td>
+<td>True</td>
+<td>116</td>
+<td>132</td>
+<td>153.6531138420105</td>
+<td>PASS_A_B_NODRAW</td>
+</tr>
+
+<tr>
+<td>R38_27</td>
+<td>Ramsey(3,8,27)</td>
+<td>large official catalogue</td>
+<td>477142</td>
+<td>477142</td>
+<td>True</td>
+<td>True</td>
+<td>85</td>
+<td>94</td>
+<td>630.0776364803314</td>
+<td>PASS_A_B_NODRAW</td>
+</tr>
+
+<tr>
+<td>R37_21</td>
+<td>Ramsey(3,7,21)</td>
+<td>large official catalogue</td>
+<td>1118436</td>
+<td>1118436</td>
+<td>True</td>
+<td>True</td>
+<td>51</td>
+<td>63</td>
+<td>487.7384924888611</td>
+<td>PASS_A_B_NODRAW</td>
+</tr>
+
+<tr>
+<td>R36_17</td>
+<td>Ramsey(3,6,17)</td>
+<td>drawable small catalogue</td>
+<td>7</td>
+<td>7</td>
+<td>True</td>
+<td>True</td>
+<td>40</td>
+<td>42</td>
+<td>32.69785952568054</td>
+<td>PASS_A_B_DRAW</td>
+</tr>
+
+<tr>
+<td>R46_35SOME</td>
+<td>Ramsey(4,6,35)</td>
+<td>drawable small catalogue</td>
+<td>37</td>
+<td>37</td>
+<td>True</td>
+<td>True</td>
+<td>246</td>
+<td>250</td>
+<td>205.15019416809082</td>
+<td>PASS_A_B_DRAW</td>
+</tr>
+
+<tr>
+<td>R55_REFERENCE_SAMPLE</td>
+<td>Ramsey(5,5,42) known reference sample</td>
+<td>reference sample, not complete catalogue</td>
+<td>656</td>
+<td>656</td>
+<td>True</td>
+<td>True</td>
+<td>423</td>
+<td>438</td>
+<td>None</td>
+<td>PASS_R55_REFERENCE_SAMPLE_VALIDATED</td>
+</tr>
+
+</table>
+</div>
+
+<div class="box">
+<h2>Public benchmark timing</h2>
+<table>
+<tr>
+<th>benchmark</th><th>mode</th><th>trials</th><th>mean speedup</th><th>min speedup</th><th>max speedup</th><th>mean nodes</th>
+</tr>
+
+<tr>
+<td>V21 d13_R</td>
+<td>baseline</td>
+<td>10</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>66598.3</td>
+</tr>
+
+<tr>
+<td>V21 d13_R</td>
+<td>degree_only</td>
+<td>10</td>
+<td>1135.125191208084</td>
+<td>1096.4666666666667</td>
+<td>1169.421052631579</td>
+<td>58.7</td>
+</tr>
+
+<tr>
+<td>V21 d13_R</td>
+<td>triangle_rule_only</td>
+<td>10</td>
+<td>3.298211049038646</td>
+<td>3.2621803114730676</td>
+<td>3.33948432760364</td>
+<td>20194.4</td>
+</tr>
+
+<tr>
+<td>V21 d13_R</td>
+<td>full_mcdo</td>
+<td>10</td>
+<td>1922.345924885925</td>
+<td>1817.054054054054</td>
+<td>2019.909090909091</td>
+<td>34.7</td>
+</tr>
+
+<tr>
+<td>R(4,5)_d12_R</td>
+<td>full_mcdo</td>
+<td>3</td>
+<td>369.6276923076923</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+</tr>
+
+<tr>
+<td>R(3,8)_d7_B</td>
+<td>full_mcdo</td>
+<td>3</td>
+<td>1254.5434681242336</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+</tr>
+
+<tr>
+<td>R(4,7)_d20_R</td>
+<td>full_mcdo</td>
+<td>3</td>
+<td>1254.5402869749746</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+</tr>
+
+<tr>
+<td>R(3,8)_d6_B</td>
+<td>full_mcdo</td>
+<td>3</td>
+<td>2.1123084916423407</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+</tr>
+
+</table>
+</div>
+
+<div class="box">
+<h2>Boundary</h2>
+<p>This package does not claim to solve open Ramsey numbers.</p>
+<p>R(5,5) is treated as a reference-sample and target case, not as a solved case.</p>
+</div>
+
+</body>
+</html>
+
