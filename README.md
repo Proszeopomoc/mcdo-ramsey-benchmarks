@@ -18,10 +18,10 @@ This repository publishes:
 This repository does not publish:
 
 - solver source code
-- private MDO/MCDO internals
-- rule selection logic
-- branch ordering
-- branch scoring
+- private MDO/internal solver details
+- internal implementation details
+- internal implementation details
+- internal implementation details
 - private search strategy
 - acceleration mechanisms
 
@@ -45,7 +45,7 @@ Results, validation tables, figures, certificates, and public documentation are 
 
 Solver implementation not released.
 
-The MDO/MCDO solver source code, internal search strategy, rule selection logic, branch scoring, and private method structure are not included in this repository and are not licensed for use.
+The MDO/MCDO solver source code, internal search strategy, internal implementation details, internal implementation details, and private method structure are not included in this repository and are not licensed for use.
 
 
 ## Figures
@@ -77,4 +77,13 @@ This project is based on a proprietary MDO/MCDO method for Ramsey graph search, 
 
 The public release treats the method as a closed-source black-box solver. The repository publishes benchmark results, validation artifacts, timing tables, hardware metadata, graph certificates, and SHA256 manifests.
 
-The solver implementation, internal search strategy, rule selection logic, branch ordering, branch scoring, and private method structure are not released.
+The solver implementation, internal search strategy, internal implementation details, internal implementation details, internal implementation details, and private method structure are not released.
+
+## Public method boundary
+
+The public repository describes a closed-source solver only as a black-box benchmark and certificate pipeline.
+
+The repository intentionally does not disclose internal search rules, reduction mechanisms, solver routing criteria, scoring functions, branching policies, or implementation details that could be used to reconstruct the private method.
+
+Public artifacts are limited to validation outputs, benchmark results, timing tables, hardware metadata, selected figures, certificates, and SHA256 manifests.
+

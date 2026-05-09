@@ -23,8 +23,8 @@
                    "size_gb":  237.5
                },
     "disclosure_policy":  {
-                              "branch_scoring_disclosed":  false,
-                              "rule_cut_details_disclosed":  false,
+                              "private_search_details_disclosed":  false,
+                              "private_reduction_details_disclosed":  false,
                               "public_solver_name":  "closed-source MCDO solver build used for this report",
                               "private_methods_disclosed":  false,
                               "internal_versions_disclosed":  false,

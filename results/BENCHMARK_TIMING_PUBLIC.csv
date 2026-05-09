@@ -1,9 +1,9 @@
-benchmark,mode,trials,mean_nodes,mean_speedup_vs_baseline,min_speedup_vs_baseline,max_speedup_vs_baseline,mean_forced_total
-V21 d13_R,baseline,10,66598.3,1.0,1.0,1.0,0
-V21 d13_R,degree_only,10,58.7,1135.125191208084,1096.4666666666667,1169.421052631579,43.4
-V21 d13_R,triangle_rule_only,10,20194.4,3.298211049038646,3.2621803114730676,3.33948432760364,37109.9
-V21 d13_R,full_mcdo,10,34.7,1922.345924885925,1817.054054054054,2019.909090909091,67.4
-"R(4,5)_d12_R",full_mcdo,3,,369.6276923076923,,,
-"R(3,8)_d7_B",full_mcdo,3,,1254.5434681242336,,,
-"R(4,7)_d20_R",full_mcdo,3,,1254.5402869749746,,,
-"R(3,8)_d6_B",full_mcdo,3,,2.1123084916423407,,,
+benchmark_id,configuration_id,trials,mean_nodes,mean_speedup_vs_baseline,min_speedup_vs_baseline,max_speedup_vs_baseline
+benchmark_fragment_A,baseline,10,66598.3,1.0,1.0,1.0
+benchmark_fragment_A,configuration_A,10,58.7,1135.125191208084,1096.4666666666667,1169.421052631579
+benchmark_fragment_A,configuration_B,10,20194.4,3.298211049038646,3.2621803114730676,3.33948432760364
+benchmark_fragment_A,selected_closed_source_configuration,10,34.7,1922.345924885925,1817.054054054054,2019.909090909091
+benchmark_fragment_A,selected_closed_source_configuration,3,,369.6276923076923,,
+benchmark_fragment_A,selected_closed_source_configuration,3,,1254.5434681242336,,
+benchmark_fragment_A,selected_closed_source_configuration,3,,1254.5402869749746,,
+benchmark_fragment_A,selected_closed_source_configuration,3,,2.1123084916423407,,

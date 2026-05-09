@@ -15,9 +15,9 @@ Public:
 Not public:
 
 - solver implementation
-- rule selection logic
-- branch ordering
-- branch scoring
+- internal implementation details
+- internal implementation details
+- internal implementation details
 - private search strategy
 - internal MDO/MCDO structure
 - private acceleration mechanisms

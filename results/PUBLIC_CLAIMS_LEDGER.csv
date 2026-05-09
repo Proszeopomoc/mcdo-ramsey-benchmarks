@@ -1,5 +1,5 @@
 claim_id,claim,public_status,what_is_disclosed,what_is_not_disclosed
-P1,The project uses a closed-source MCDO solver and public certificate checks.,DISCLOSED,"Results, validation outputs, timing, hardware, SHA256 manifests.","Solver implementation, rule scoring, branch-order logic, internal MCDO structure."
+P1,The project uses a closed-source MCDO solver and public certificate checks.,DISCLOSED,"Results, validation outputs, timing, hardware, SHA256 manifests.","Solver implementation, internal implementation details, internal implementation details, internal MCDO structure."
 P2,Official Ramsey catalogues are validated against McKay reference data.,SUPPORTED,"Counts, validity flags, duplicate checks, edge statistics, SHA256.",Internal solver method.
 P3,MCDO produces repeatable acceleration on selected Ramsey fragments.,SUPPORTED,Timing and node-count benchmarks.,Exact mechanism producing the acceleration.
 P4,"R(5,5) is not claimed solved.",BOUNDARY,Reference sample validation and hunter result.,No claim of complete search or proof.

@@ -4,7 +4,7 @@
 
 The computations described in this report were performed with a closed-source MCDO solver build selected for public benchmarking.
 
-Only the benchmarked build used for the reported tables is described. Internal solver versions, private search variants, rule selection logic, branch scoring, and MCDO implementation details are not disclosed in this release.
+Only the benchmarked build used for the reported tables is described. Internal solver versions, internal solver variants, internal implementation details, internal implementation details, and MCDO implementation details are not disclosed in this release.
 
 The public package includes timing results, hardware metadata, graph certificates, validation summaries, and SHA256 manifests.
 
@@ -47,14 +47,14 @@ GPU presence is reported as hardware metadata. GPU acceleration is not claimed u
 
 | benchmark | mode | trials | mean speedup vs baseline | min speedup | max speedup | mean nodes |
 |---|---|---:|---:|---:|---:|---:|
-| V21 d13_R | baseline | 10 | 1.0 | 1.0 | 1.0 | 66598.3 |
-| V21 d13_R | degree_only | 10 | 1135.125191208084 | 1096.4666666666667 | 1169.421052631579 | 58.7 |
-| V21 d13_R | triangle_rule_only | 10 | 3.298211049038646 | 3.2621803114730676 | 3.33948432760364 | 20194.4 |
-| V21 d13_R | full_mcdo | 10 | 1922.345924885925 | 1817.054054054054 | 2019.909090909091 | 34.7 |
-| R(4,5)_d12_R | full_mcdo | 3 | 369.6276923076923 |  |  |  |
-| R(3,8)_d7_B | full_mcdo | 3 | 1254.5434681242336 |  |  |  |
-| R(4,7)_d20_R | full_mcdo | 3 | 1254.5402869749746 |  |  |  |
-| R(3,8)_d6_B | full_mcdo | 3 | 2.1123084916423407 |  |  |  |
+| Ramsey fragment benchmark A | baseline | 10 | 1.0 | 1.0 | 1.0 | 66598.3 |
+| Ramsey fragment benchmark A | configuration_A | 10 | 1135.125191208084 | 1096.4666666666667 | 1169.421052631579 | 58.7 |
+| Ramsey fragment benchmark A | configuration_B | 10 | 3.298211049038646 | 3.2621803114730676 | 3.33948432760364 | 20194.4 |
+| Ramsey fragment benchmark A | selected_closed_source_configuration | 10 | 1922.345924885925 | 1817.054054054054 | 2019.909090909091 | 34.7 |
+| R(4,5)_d12_R | selected_closed_source_configuration | 3 | 369.6276923076923 |  |  |  |
+| R(3,8)_d7_B | selected_closed_source_configuration | 3 | 1254.5434681242336 |  |  |  |
+| R(4,7)_d20_R | selected_closed_source_configuration | 3 | 1254.5402869749746 |  |  |  |
+| R(3,8)_d6_B | selected_closed_source_configuration | 3 | 2.1123084916423407 |  |  |  |
 
 ## Public wording
 
