@@ -1,10 +1,12 @@
-blue_edges,count,n,pdf,png,red_edges,stem,svg
-5,,5,C:\github\mcdo-ramsey-benchmarks\figures\R33_K5_counterexample.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R33_K5_counterexample.png,5,R33_K5_counterexample,C:\github\mcdo-ramsey-benchmarks\figures\R33_K5_counterexample.svg
-17,,8,C:\github\mcdo-ramsey-benchmarks\figures\R34_K8_counterexample.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R34_K8_counterexample.png,11,R34_K8_counterexample,C:\github\mcdo-ramsey-benchmarks\figures\R34_K8_counterexample.svg
-52,,13,C:\github\mcdo-ramsey-benchmarks\figures\R35_K13_unique_counterexample.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R35_K13_unique_counterexample.png,26,R35_K13_unique_counterexample,C:\github\mcdo-ramsey-benchmarks\figures\R35_K13_unique_counterexample.svg
-,7,,C:\github\mcdo-ramsey-benchmarks\figures\R36_K17_all_7_graphs.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R36_K17_all_7_graphs.png,,R36_K17_all_7_graphs,C:\github\mcdo-ramsey-benchmarks\figures\R36_K17_all_7_graphs.svg
-95,,17,C:\github\mcdo-ramsey-benchmarks\figures\R36_K17_graph_1.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R36_K17_graph_1.png,41,R36_K17_graph_1,C:\github\mcdo-ramsey-benchmarks\figures\R36_K17_graph_1.svg
-68,,17,C:\github\mcdo-ramsey-benchmarks\figures\R44_K17_unique_counterexample.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R44_K17_unique_counterexample.png,68,R44_K17_unique_counterexample,C:\github\mcdo-ramsey-benchmarks\figures\R44_K17_unique_counterexample.svg
-455,,35,C:\github\mcdo-ramsey-benchmarks\figures\R39_K35_unique_graph.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R39_K35_unique_graph.png,140,R39_K35_unique_graph,C:\github\mcdo-ramsey-benchmarks\figures\R39_K35_unique_graph.svg
-436,,42,C:\github\mcdo-ramsey-benchmarks\figures\R55_K42_reference_source_1.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R55_K42_reference_source_1.png,425,R55_K42_reference_source_1,C:\github\mcdo-ramsey-benchmarks\figures\R55_K42_reference_source_1.svg
-425,,42,C:\github\mcdo-ramsey-benchmarks\figures\R55_K42_reference_complement_1.pdf,C:\github\mcdo-ramsey-benchmarks\figures\R55_K42_reference_complement_1.png,436,R55_K42_reference_complement_1,C:\github\mcdo-ramsey-benchmarks\figures\R55_K42_reference_complement_1.svg
+blue_edges,count,n,pdf,png,red_edges,stem,title
+5,,5,figures\R33_K5_counterexample.pdf,figures\R33_K5_counterexample.png,5,R33_K5_counterexample,"R(3,3) lower-bound witness"
+17,,8,figures\R34_K8_counterexample.pdf,figures\R34_K8_counterexample.png,11,R34_K8_counterexample,"R(3,4) lower-bound witness"
+52,,13,figures\R35_K13_unique_counterexample.pdf,figures\R35_K13_unique_counterexample.png,26,R35_K13_unique_counterexample,"R(3,5) lower-bound witness"
+,7,,figures\R36_K17_all_7_graphs.pdf,figures\R36_K17_all_7_graphs.png,,R36_K17_all_7_graphs,"All Ramsey(3,6,17) graphs"
+95,,17,figures\R36_K17_graph_1.pdf,figures\R36_K17_graph_1.png,41,R36_K17_graph_1,"R(3,6) lower-bound witness"
+68,,17,figures\R44_K17_unique_counterexample.pdf,figures\R44_K17_unique_counterexample.png,68,R44_K17_unique_counterexample,"R(4,4) lower-bound witness"
+455,,35,figures\R39_K35_unique_graph.pdf,figures\R39_K35_unique_graph.png,140,R39_K35_unique_graph,"R(3,9) maximal graph"
+,37,,figures\R46_K35_all_37_known_graphs.pdf,figures\R46_K35_all_37_known_graphs.png,,R46_K35_all_37_known_graphs,"Largest known Ramsey(4,6,35) graphs"
+347,,35,figures\R46_K35_representative_graph_1.pdf,figures\R46_K35_representative_graph_1.png,248,R46_K35_representative_graph_1,"Largest known Ramsey(4,6,35) graph"
+436,,42,figures\R55_K42_reference_source_1.pdf,figures\R55_K42_reference_source_1.png,425,R55_K42_reference_source_1,"R(5,5) known reference example"
+425,,42,figures\R55_K42_reference_complement_1.pdf,figures\R55_K42_reference_complement_1.png,436,R55_K42_reference_complement_1,"R(5,5) known reference example"
