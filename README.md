@@ -70,3 +70,11 @@ These figures are documentation artifacts. They do not disclose the private solv
 This public benchmark artifact release is archived on Zenodo:
 
 https://doi.org/10.5281/zenodo.20094421
+
+## Solver method
+
+This project is based on a proprietary MDO/MCDO method for Ramsey graph search, counting, validation, and certificate generation.
+
+The public release treats the method as a closed-source black-box solver. The repository publishes benchmark results, validation artifacts, timing tables, hardware metadata, graph certificates, and SHA256 manifests.
+
+The solver implementation, internal search strategy, rule selection logic, branch ordering, branch scoring, and private method structure are not released.
